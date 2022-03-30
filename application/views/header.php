@@ -54,10 +54,6 @@
                     <h3>Noticias Actuales</h3>
                     <span class="message-count">26</span>
                 </a>
-                <a href="#">
-                    <span class="material-icons-sharp">logout</span>
-                    <h3>Salir</h3>
-                </a>
             </div>
         </aside>
 

@@ -196,12 +196,6 @@ aside .sidebar a span {
 	transition: all 300ms ease;
 }
 
-aside .sidebar a:last-child {
-	position: absolute;
-	bottom: 2rem;
-	width: 100%;
-}
-
 aside .sidebar a.active {
 	background: var(--color-light);
 	color: var(--color-azul);
@@ -330,19 +324,23 @@ main .insights > div span {
 	width: 100%;
 	height: 98%;
 	border-radius: var(--border-radius-1);
+	/* object-fit: cover; */
 }
 
 .item {
 	width: calc((100% - 30px) / 4);
 	flex: none;
 	margin-bottom: 90px;
-
 	justify-content: center;
 	align-items: center;
 	padding: var(--padding-1);
+	cursor: pointer;
 }
 
 .item:last-child {
 	margin-right: auto;
 	margin-left: 10px;
 }
+
+/*PAGINADOR*/
+
